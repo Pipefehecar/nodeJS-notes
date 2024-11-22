@@ -1,0 +1,32 @@
+{
+  "name": "curso-node",
+  "version": "1.0.0",
+  "description": "El mejor curso de node de youtube",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier --write ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pipefehecar/nodeJS-notes.git"
+  },
+  "keywords": [
+    "node",
+    "nodejs",
+    "youtube"
+  ],
+  "author": "Luis Herrera Cardenas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pipefehecar/nodeJS-notes/issues"
+  },
+  "homepage": "https://github.com/Pipefehecar/nodeJS-notes#readme",
+  "dependencies": {
+    "picocolors": "1.1.1"
+  },
+  "devDependencies": {
+    "prettier": "^3.3.3",
+    "standard": "17.1.2"
+  }
+}
