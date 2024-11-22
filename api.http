@@ -1,0 +1,11 @@
+### GET for welcome message
+GET http://localhost:3000/ HTTP/1.1
+
+### Create a new Pokemon
+POST http://localhost:3000/pokemon HTTP/1.1
+
+{
+    "name": "Pikachu",
+    "type": "Electric",
+    "moves": ["Thunderbolt", "Quick Attack"]
+}
